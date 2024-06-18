@@ -16,14 +16,7 @@ NVIDIA vGPU是一个显卡虚拟化程序，你可以用它把一块16GB显存�
 
 ## 下载vGPU软件包
 
-vGPU的软件包可以从github上`justin-himself`大佬的`NVIDIA-VGPU-Driver-Archive`。这个仓库包含了vGPU 10~vGPU 16的所有驱动。注意以`zip.001`为后缀的文件可能有多份文件要下载。我要给ESXI8安装vGPU，所以我选带有vSphere8字样的下载。
-
-        # github链接
-        https://github.com/justin-himself/NVIDIA-VGPU-Driver-Archive
-
-![](./picture/github-download/1-选择下载驱动.png)
-
-![](./picture/github-download/2-下载vGPU驱动.png)
+由于原计划的仓库**已经失效**，现在vGPU的软件包可以从这个仓库的Issues中找分享的链接。
 
 下载完文件后，把它解压出来，里面有三个文件夹，分别是`Guest_Drivers`，`Host_Drivers`，`Signing_Keys`和一些PDF说明。我们只需要用到`Guest_Drivers`和`Host_Drivers`。`Guest_Drivers`是给虚拟机用的vGPU驱动，`Host_Drivers`是安装到ESXI主机上的软件。
 
@@ -56,6 +49,8 @@ vGPU的软件包可以从github上`justin-himself`大佬的`NVIDIA-VGPU-Driver-A
 使用`esxcli`安装vGPU驱动程序
 
         # 请不要盲目复制，根据自己的文件目录做修改!
+        # 路径必须是绝对路径!
+        
         # 先安装NVD-VGPU开头的软件包
         esxcli software vib install -d /tmp/NVD-VGPU-800_525.85.07-1OEM.800.1.0.20613240_21166548.zip
         esxcli software vib install -d /tmp/nvd-gpu-mgmt-daemon_525.85.07-0.0.0000_21145710.zip
