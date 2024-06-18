@@ -49,6 +49,8 @@ NVIDIA vGPU是一个显卡虚拟化程序，你可以用它把一块16GB显存�
 使用`esxcli`安装vGPU驱动程序
 
         # 请不要盲目复制，根据自己的文件目录做修改!
+        # 路径必须是绝对路径!
+        
         # 先安装NVD-VGPU开头的软件包
         esxcli software vib install -d /tmp/NVD-VGPU-800_525.85.07-1OEM.800.1.0.20613240_21166548.zip
         esxcli software vib install -d /tmp/nvd-gpu-mgmt-daemon_525.85.07-0.0.0000_21145710.zip
