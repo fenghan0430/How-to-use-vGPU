@@ -21,6 +21,8 @@ NVIDIA vGPU是一个显卡虚拟化程序，你可以用它把一块16GB显存�
 
 由于原计划的仓库**已经失效**，现在vGPU的软件包可以从这个仓库的Issues中找分享的链接。
 
+> 链接失效或者想要指定版本可以留issues 😊
+
 下载完文件后，把它解压出来，里面有三个文件夹，分别是`Guest_Drivers`，`Host_Drivers`，`Signing_Keys`和一些PDF说明。我们只需要用到`Guest_Drivers`和`Host_Drivers`。`Guest_Drivers`是给虚拟机用的vGPU驱动，`Host_Drivers`是安装到ESXI主机上的软件。
 
 ![](./picture/github-download/3-解压vGPU驱动.png)
