@@ -4,6 +4,8 @@
 修改时间 2025-3-18
 
 > PvE 8.1安装vGPU教程推荐：[链接 https://blog.mitsea.com/d29bb28b14984443b232263348b946ba](https://blog.mitsea.com/d29bb28b14984443b232263348b946ba)
+>
+> vGPU类型(如vDWS、vPC等)介绍文章：[链接 https://zhuanlan.zhihu.com/p/96945809](https://zhuanlan.zhihu.com/p/96945809)
 
 ## 预览
 
@@ -192,6 +194,8 @@ NVIDIA vGPU是一个显卡虚拟化程序，你可以用它把一块16GB显存�
 </table>
 
 > 注意vDWS和vCS才支持CUDA
+> 
+> vGPU类型(如vDWS、vPC等)介绍文章：[链接 https://zhuanlan.zhihu.com/p/96945809](https://zhuanlan.zhihu.com/p/96945809)
 
 ![](./picture/Windwos_show/1-WShow-添加PCI.png)
 
@@ -293,6 +297,8 @@ Windows平台的示范结束，下面是Linux平台的示范。
 </table>
 
 > 注意vDWS和vCS才支持CUDA
+> 
+> vGPU类型(如vDWS、vPC等)介绍文章：[链接 https://zhuanlan.zhihu.com/p/96945809](https://zhuanlan.zhihu.com/p/96945809)
 
 ![](./picture/Linux_show/1-LShow-添加PCI.png)
 
