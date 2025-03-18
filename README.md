@@ -92,7 +92,7 @@ NVIDIA vGPU是一个显卡虚拟化程序，你可以用它把一块16GB显存�
 
 ## 用Docker部署免费的授权服务
 
-我在虚拟拟机上新建了一个Windows Server虚拟机，用来安装dorker。请注意，在新建虚拟机时要在CPU页面勾选`硬件辅助的虚拟化`。有经验的读者可以使用Liunx。
+我在虚拟机上新建了一个Windows Server虚拟机，用来安装dorker。请注意，在新建虚拟机时要在CPU页面勾选`硬件辅助的虚拟化`。有经验的读者可以使用Liunx。
 
 ![](./picture/Docker/1-Docker-打开硬件辅助的虚拟化.png)
 
