@@ -1,6 +1,9 @@
 # vGPU使用指南
 
-编写时间 2023-8-2
+编写时间 2023-8-2<br>
+修改时间 2025-3-18
+
+> PvE 8.1安装vGPU教程推荐：[链接 https://blog.mitsea.com/d29bb28b14984443b232263348b946ba](https://blog.mitsea.com/d29bb28b14984443b232263348b946ba)
 
 ## 预览
 
